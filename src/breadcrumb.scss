@@ -1,0 +1,23 @@
+$breadcrumb-separator: "\00A0" "/" "\00A0" !default;
+
+.breadcrumb {
+  margin:  0;
+  padding: 0;
+  list-style: none;
+}
+
+.breadcrumb__item + .breadcrumb__item:before {
+    content: $breadcrumb-separator;
+}
+
+.breadcrumb__item {
+  display: inline-block;
+
+  a, span {
+    cursor: pointer;
+  }
+}
+
+.breadcrumb__item--root {
+    font-weight: bold;
+}
