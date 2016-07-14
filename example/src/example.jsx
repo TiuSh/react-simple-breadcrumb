@@ -17,7 +17,7 @@ const examples = [{
 }, {
   title: 'With a custom URL generator',
   code: <Breadcrumb
-          path="example/src/example4.jsx"
+          path="example/src/example.jsx"
           getUrlFromPathSegments={pathSegments => (
             `https://github.com/TiuSh/react-simple-breadcrumb/tree/master/${pathSegments.join('/')}`
           )}

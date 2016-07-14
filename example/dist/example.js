@@ -88,7 +88,7 @@
 	}, {
 	  title: 'With a custom URL generator',
 	  code: _react2.default.createElement(_Breadcrumb2.default, {
-	    path: 'example/src/example4.jsx',
+	    path: 'example/src/example.jsx',
 	    getUrlFromPathSegments: function getUrlFromPathSegments(pathSegments) {
 	      return 'https://github.com/TiuSh/react-simple-breadcrumb/tree/master/' + pathSegments.join('/');
 	    }
