@@ -1,4 +1,5 @@
 # react-simple-breadcrumb
+[![Build Status](https://travis-ci.org/TiuSh/react-simple-breadcrumb.svg?branch=master)](https://travis-ci.org/TiuSh/react-simple-breadcrumb)
 
 A simple React breadcrumb component.
 
